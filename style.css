@@ -1,0 +1,111 @@
+.pagination{
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1;
+    font-family: 'Roboto Mono', monospace;
+    background-color: #FFF;
+}
+.page-item{
+    position: center;
+    background-color: #FFF;
+    border: 1px solid rgb(0, 0, 0);
+}
+.logopk{
+    display: flex;
+    height: 80px;
+    margin-left: 30px;    
+    position: center;
+    
+}
+.col-md-6{
+    background-color: #FFF;
+    border: 1px solid black;
+
+}
+
+
+.navbar{
+    background-color: #FFF;
+    border: 1px solid black;
+    margin: 20px;
+    
+}
+.h1 {
+    font-family: 'Roboto Mono', monospace;
+    color: rgb(241, 241, 241);
+}
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    background-color: #FFF;
+    border: 1px solid black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Oswald", sans-serif;
+  }
+
+
+.pokemon-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    font-family: 'Roboto Mono', monospace;
+  }
+  .img-container {
+    position: relative;
+    width: 110px;
+    border-radius: 20px;
+    margin: 10px auto;
+    background-color: #FFF;
+    border: 1px solid black;
+    
+  }
+
+  
+.stat-container {
+    position: relative;
+    height: fit-content;
+    font-family: 'Roboto Mono', monospace;
+    max-width: 350px;
+    border-radius: 4px;
+    color: #000;
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto;
+    background-color: #FFF;
+    border: 1px solid black;
+}
+
+.pokemon-block,
+.pokemon-block-back {
+  border-radius: 10px;
+  padding: 10px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 6px 11px rgba(14, 13, 13, 3.5);
+}
+
+
+#spinner {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.name {
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 1.2rem;
+    
+}
+
+
+.pokemon-block p {
+    margin: 5px;
+}
